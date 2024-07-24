@@ -1,4 +1,5 @@
-#homework 1
+#homework 1 : მომხმარებელს input-ის გამოყენებით შემოატანინეთ სახელი, და მომხმარებელი როცა შემოიყვანს თავის სახელს უნდა გამოიტანოს hello მომხმარებელის_სახელი
+
 
 
 name = input("enter your name: ")
@@ -12,7 +13,8 @@ print("hello " + name + " " + surname )
 
 
 
-#homework 2
+#homework 2 :   მომხმარებელს input-ის გამოყენებით შემოატანინეთ სახელი, გვარი, ასაკი და ქალაქი. როცა  შემოიტანს
+#მომხმარებელი ყველაფერს მერე უნდა დაუპრინტოთ გრძელი წინადადება
 
 name = input("enter your name: ")
 surname = input("enter your surname: ")
@@ -24,7 +26,7 @@ print("gamarjoba me var" + " "+  name + " " + surname + " " + "me vcxovrob" + " 
 
 
 
-#homework 3
+#homework 3 : კომენტარებით ახსენით რა არის input-ი და output-ი, რამდენიმე მაგალითიც გააკეთეთ input-ებზე
 
 #input seyvana
 #output gatana
