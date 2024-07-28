@@ -8,4 +8,3 @@ if number2>0:
     print("uaryofitia")
 else:
     print("dadebitia")
-    
