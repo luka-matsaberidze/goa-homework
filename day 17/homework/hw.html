@@ -1,3 +1,17 @@
+<!--Create a simple HTML form with two input fields: one for the user's name and one for their email address. Add a submit button.
+
+Add labels to the input fields created in Task 1 to ensure that each field is clearly identified.
+
+Modify the form from Task 1 to include placeholder text in each input field. For example, use "Enter your name" in the name field.
+
+Make the email field required so that the form cannot be submitted without an email address.
+
+Add a password field to the form. Ensure that the text entered in this field is hidden.
+
+Create a set of radio buttons that allow the user to select their gender (e.g., Male, Female, Other). Ensure only one option can be selected at a time.
+
+Add a checkbox that allows users to agree to terms and conditions before submitting the form.-->
+
 
 <html lang="en">
 
@@ -6,28 +20,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>goa</title>
 </head>
+    <body>
+        <form>
+            <label for="name">First name: </label>
+            <input type="text" required placeholder="name"
+            id="name">
+            <br><br>
+            <label for="surname">enter your surname</label>
+            <input type="text" required placeholder="surname"
+            id="surname"> 
+            <br><br>
+            <label for="email">enter your email: </label>
+            <input type="email" required placeholder="email"
+            id="email">
+            <br><br>
+            <label for="number">enter your number</label>
+            <input type="number"required placeholder="number"
+            id="number">
+            <br><br>
+            <label for="password">enter password: </label>
+            <input type="password" minlength="8" maxlength="16" required placeholder="password"
+            id="password">
+            <br><br>
+            <label for="password">enter password: </label>
+            <input type="password" minlength="8" maxlength="16" required placeholder="repeat password"
+            id="password">
+            <br><br>
+            <input type="date" required>
+            <br><br>
 
-<body>
-    <form>
-        <label for="name">First name: </label>
-        <input type="text" required placeholder="name"
-        id="name">
-        <br><br>
-        <label for="password">enter password: </label>
-        <input type="password" minlength="8" maxlength="16" placeholder="enter password"
-        id="password">
-        <br><br>
-        <label for="email">enter your email: </label>
-        <input type="email" required placeholder="email"
-        id="email">
-        <br><br>
-        <br><br>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
-        <br><br>
-        <input type="submit" required >
-    </form>
-
-</body>
-
+            <br><br>
+            <br><br>
+            <label for="">gender:</label>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+            <input type="submit" required >
+        </form>
+    </body>
 </html>
