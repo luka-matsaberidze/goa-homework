@@ -1,3 +1,18 @@
+<!--Create a simple HTML form with two input fields: one for the user's name and one for their email address. Add a submit button.
+
+Add labels to the input fields created in Task 1 to ensure that each field is clearly identified.
+
+Modify the form from Task 1 to include placeholder text in each input field. For example, use "Enter your name" in the name field.
+
+Make the email field required so that the form cannot be submitted without an email address.
+
+Add a password field to the form. Ensure that the text entered in this field is hidden.
+
+Create a set of radio buttons that allow the user to select their gender (e.g., Male, Female, Other). Ensure only one option can be selected at a time.
+
+Add a checkbox that allows users to agree to terms and conditions before submitting the form.-->
+
+
 <html lang="en">
 
 <head>
@@ -7,11 +22,6 @@
 </head>
     <body>
         <form>
-            <select>
-            <option value="select">blue</option>
-            <option value="select">red</option>
-            </select>
-            <br><br>
             <label for="name">First name: </label>
             <input type="text" required placeholder="name"
             id="name">
@@ -25,8 +35,8 @@
             id="email">
             <br><br>
             <label for="number">enter your number</label>
-            <input type="text"required placeholder="number"
-            id="number" maxlength="9">
+            <input type="number"required placeholder="number"
+            id="number">
             <br><br>
             <label for="password">enter password: </label>
             <input type="password" minlength="8" maxlength="16" required placeholder="password"
@@ -41,7 +51,7 @@
 
             <br><br>
             <br><br>
-            <label for="">Gender:</label>
+            <label for="">gender:</label>
             <input type="radio" name="gender" value="male">
             <label for="male">Male</label>
             <input type="radio" name="gender" value="female">
