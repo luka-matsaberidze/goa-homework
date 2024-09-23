@@ -1,1 +1,2 @@
-print("i wasnt in class")
+number=["maco", "gtaco"]
+print(len(number))
